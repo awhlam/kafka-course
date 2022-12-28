@@ -1,1 +1,1 @@
-# kafka-basics
+# kafka-course
