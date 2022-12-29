@@ -38,7 +38,7 @@ public class ProducerDemoWithCallback {
                             "Topic: " + metadata.topic() + "\n" +
                             "Partition: " + metadata.partition() + "\n" +
                             "Offset: " + metadata.offset() + "\n" +
-                            "Timestamp: " + metadata.offset());
+                            "Timestamp: " + metadata.timestamp());
                 } else {
                     log.error("Error while producing", e);
                 }
