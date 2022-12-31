@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5b45090-1b07-4796-8cee-a73c4075b506" name="Changes" comment="Fix callback metadata timestamp">
+    <list default="true" id="e5b45090-1b07-4796-8cee-a73c4075b506" name="Changes" comment="Set round robin partitioning and send multiple messages">
+      <change afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/io/conduktor/demos/kafka/ProducerDemoKeys.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-basics/src/main/java/io/conduktor/demos/kafka/ProducerDemoWithCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/io/conduktor/demos/kafka/ProducerDemoWithCallback.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,9 +73,22 @@
       <recent name="io.conduktor.demos.kafka" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProducerDemoWithCallback">
+  <component name="RunManager" selected="Application.ProducerDemoKeys">
     <configuration name="ProducerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.conduktor.demos.kafka.ProducerDemo" />
+      <module name="kafka-course.kafka-basics.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.conduktor.demos.kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerDemoKeys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.conduktor.demos.kafka.ProducerDemoKeys" />
       <module name="kafka-course.kafka-basics.main" />
       <extension name="coverage">
         <pattern>
@@ -102,6 +115,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProducerDemoKeys" />
         <item itemvalue="Application.ProducerDemoWithCallback" />
         <item itemvalue="Application.ProducerDemo" />
       </list>
@@ -144,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672272126302</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Set round robin partitioning and send multiple messages">
+      <created>1672276038348</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1672276038348</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -163,6 +184,7 @@
     <MESSAGE value="Create producer" />
     <MESSAGE value="Add producer callback" />
     <MESSAGE value="Fix callback metadata timestamp" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix callback metadata timestamp" />
+    <MESSAGE value="Set round robin partitioning and send multiple messages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Set round robin partitioning and send multiple messages" />
   </component>
 </project>
