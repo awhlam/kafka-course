@@ -21,7 +21,7 @@ public class ConsumerDemoWithShutdown {
         log.info("I am a Kafka consumer!");
 
         String bootstrapServers = "127.0.0.1:9092";
-        String groupId = "my-second-application";
+        String groupId = "my-third-application";
         String topic = "demo_java";
 
         // create consumer configs
@@ -59,8 +59,6 @@ public class ConsumerDemoWithShutdown {
 
             // poll for new data
             while (true) {
-                log.info("Polling");
-
                 ConsumerRecords<String, String> records =
                         consumer.poll(Duration.ofMillis(1000));
 
