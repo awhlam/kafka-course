@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5b45090-1b07-4796-8cee-a73c4075b506" name="Changes" comment="Producer with keys">
-      <change afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/io/conduktor/demos/kafka/ConsumerDemo.java" afterDir="false" />
+    <list default="true" id="e5b45090-1b07-4796-8cee-a73c4075b506" name="Changes" comment="Create consumer">
+      <change afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/io/conduktor/demos/kafka/ConsumerDemoWithShutdown.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,9 +73,22 @@
       <recent name="io.conduktor.demos.kafka" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConsumerDemo">
+  <component name="RunManager" selected="Application.ProducerDemoWithCallback">
     <configuration name="ConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.conduktor.demos.kafka.ConsumerDemo" />
+      <module name="kafka-course.kafka-basics.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.conduktor.demos.kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerDemoWithShutdown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.conduktor.demos.kafka.ConsumerDemoWithShutdown" />
       <module name="kafka-course.kafka-basics.main" />
       <extension name="coverage">
         <pattern>
@@ -128,9 +141,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProducerDemoWithCallback" />
+        <item itemvalue="Application.ConsumerDemoWithShutdown" />
         <item itemvalue="Application.ConsumerDemo" />
         <item itemvalue="Application.ProducerDemoKeys" />
-        <item itemvalue="Application.ProducerDemoWithCallback" />
         <item itemvalue="Application.ProducerDemo" />
       </list>
     </recent_temporary>
@@ -186,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672464532088</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Create consumer">
+      <created>1672465262705</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1672465262705</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,6 +228,7 @@
     <MESSAGE value="Fix callback metadata timestamp" />
     <MESSAGE value="Set round robin partitioning and send multiple messages" />
     <MESSAGE value="Producer with keys" />
-    <option name="LAST_COMMIT_MESSAGE" value="Producer with keys" />
+    <MESSAGE value="Create consumer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create consumer" />
   </component>
 </project>
